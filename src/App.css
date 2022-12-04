@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+html::-webkit-scrollbar{
+    width: 0.5vw;
+ }
+ html::-webkit-scrollbar-thumb{
+     background-color: #7775;
+     border-radius: 20px;
+ }
+ html::-webkit-scrollbar-thumb:hover{
+     background-color: rgba(146, 146, 146, 0.333);
+ }
+ html::-webkit-scrollbar-track{
+     background-color: #5555;
+     border-radius: 20px;
+ }
+
+ .search-bar-responsive {
+    font-size: 30px;
+    padding: 10px;
+    margin-left: 50px;
+    width: 600px;
+ }
+ .drop-down-show{
+    display: none;
+ }
+
+ 
+ @media (max-width: 700px) {
+    .header-custom-carousel{
+        display: none;
+    }
+    .search-bar-responsive {
+        font-size: 20px;
+        padding: 10px;
+        width: 100%;
+     }
+     .search-wrapper-responsive{
+        margin-top: 10em;
+    }  
+ }
+  @media (max-width: 991px) {
+    .nav-res{
+        display: none;
+     }
+     .drop-down-show{
+        display: block;
+     }
+     .login-responsive{
+      display: none;
+    }
+   
+  }

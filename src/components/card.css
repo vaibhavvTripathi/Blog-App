@@ -1,0 +1,13 @@
+.customHeader {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width:270px;
+}
+.customDes{
+    overflow: hidden;
+    width:300px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
