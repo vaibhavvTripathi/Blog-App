@@ -36,7 +36,7 @@ const Navigations = () => {
        </Button>
        </Link>
        <Link
-       to={localStorage.getItem("isAuth")?"/MyBlogs":"/error"}
+       to={"/MyBlogs"}
        style={{"textDecoration":"none"}}
        >  
        <Button
@@ -49,7 +49,7 @@ const Navigations = () => {
       </Button>
        </Link>
        <Link
-       to={localStorage.getItem("isAuth")?"/BookMarks":"/error"}
+       to={"/BookMarks"}
        style={{"textDecoration":"none"}}
        >
         <Button
